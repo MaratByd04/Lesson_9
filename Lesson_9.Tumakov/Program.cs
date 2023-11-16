@@ -40,7 +40,7 @@ namespace Lesson_9.Tumakov
 
             Console.WriteLine();
 
-            string originalTextB = "Добро пожаловать в сказочный Туссент! Город, где кровь и вино льются рекой!";
+            string originalTextB = "эюяё Добро пожаловать в сказочный Туссент! Город, где кровь и вино льются рекой!";
             string encodedTextB = bCipher.Encode(originalTextB);
             string decodedTextB = bCipher.Decode(encodedTextB);
 
